@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: pathwise
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PATHWISE_TRUST_PROXY
+        value: "1"
+      - key: PATHWISE_DB_PATH
+        value: /data/pathwise.sqlite

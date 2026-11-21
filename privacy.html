@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#08090A">
+    <title>Privacy Policy | Pathwise</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="legal-page">
+    <main class="legal-shell">
+      <a class="brand legal-brand" href="./index.html"><span class="logo-image-crop brand-logo-crop"><img src="./pathwise-logo.jpg" alt="Pathwise" draggable="false"></span></a>
+      <p class="eyebrow">POLICY / 01</p>
+      <h1>Privacy Policy</h1>
+      <p class="legal-updated">Last updated: November 20, 2026</p>
+      <section class="legal-section">
+        <h2>Information stored</h2>
+        <p>Pathwise stores your email address, a salted scrypt password hash, a server-side session, and an encrypted student-data record in SQLite. Student data includes your profile, course progress, assessment marks, practice history, resume details, saved pathways, activity dates, and progress-chart snapshots. The browser encrypts this record with AES-GCM using a PBKDF2-derived key; the server stores the ciphertext and does not receive that encryption key. Your password is sent to the Pathwise server for account verification and should only be used over HTTPS in a deployed production environment.</p>
+      </section>
+      <section class="legal-section">
+        <h2>Where your data lives</h2>
+        <p>Account records and encrypted student data are stored in the database configured by the Pathwise server operator. The Advisor Audit and enrollment/assessment validation endpoints receive the profile, course status, or marks needed to perform a check; those validation requests are not stored as separate records. Encryption does not protect data while the app is unlocked from someone controlling your device or from malicious code running in the same browser origin. A weak password may be guessed offline, and the server operator can access stored ciphertext and account metadata. Data exports and resume downloads are not encrypted. Use a unique password and do not enter highly sensitive information.</p>
+      </section>
+      <section class="legal-section">
+        <h2>Your choices</h2>
+        <p>You can export your data, clear learning data, update your profile, sign out, or delete your account and its server-side records from Settings. Resume downloads and data exports are created only after you select those actions. Email verification, password recovery, and Google sign-in are not configured.</p>
+      </section>
+      <section class="legal-section">
+        <h2>Educational use</h2>
+        <p>Roadmaps are planning guidance based on the built-in course catalog. Confirm course availability, prerequisites, and graduation requirements with your institution before registering.</p>
+      </section>
+      <section class="legal-section">
+        <h2>External resources</h2>
+        <p>Career and learning links open third-party websites. Their privacy practices and content are governed by those providers. Pathwise does not display live job vacancies or send your profile to those sites.</p>
+      </section>
+      <a class="button button-secondary" href="./index.html">Return to Pathwise</a>
+      <footer class="legal-footer">© 2026 Pathwise <span><a href="./terms.html">Terms &amp; Conditions</a></span></footer>
+    </main>
+  </body>
+</html>

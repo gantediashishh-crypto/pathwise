@@ -1,0 +1,16 @@
+{
+  "name": "pathwise-student-planner",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "check": "node --check app.js && node --check server.js && node --check pathwise-core.js && node --check pathwise-security.js && node --check pathwise-storage.js && node --check pathwise-api.js && node --check pathwise-ui.js && node --check pathwise-student-data.js && node --check pathwise-logger.js && node --check pathwise-activity.js && node --check pathwise-content.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
