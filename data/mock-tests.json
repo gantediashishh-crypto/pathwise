@@ -1,0 +1,356 @@
+[
+  {
+    "id": "mid-i",
+    "title": "First-year Mid-I",
+    "coverage": "Units 1-2",
+    "examType": "midterm",
+    "questions": [
+      {
+        "prompt": "What is the derivative of x² with respect to x?",
+        "choices": [
+          "x",
+          "2x",
+          "x²",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "The power rule gives d(xⁿ)/dx = nxⁿ⁻¹, so d(x²)/dx = 2x."
+      },
+      {
+        "prompt": "Which C type is conventionally used to store a whole number?",
+        "choices": [
+          "int",
+          "char",
+          "float",
+          "void"
+        ],
+        "answer": 0,
+        "explanation": "The int type stores integer values."
+      },
+      {
+        "prompt": "The SI unit of force is:",
+        "choices": [
+          "Joule",
+          "Watt",
+          "Newton",
+          "Pascal"
+        ],
+        "answer": 2,
+        "explanation": "Force is measured in newtons (N)."
+      },
+      {
+        "prompt": "For a square matrix A, the identity matrix I satisfies:",
+        "choices": [
+          "A + I = 0",
+          "AI = A",
+          "AI = I",
+          "A/I = 1"
+        ],
+        "answer": 1,
+        "explanation": "Multiplying a matrix by the identity leaves it unchanged."
+      },
+      {
+        "prompt": "Ohm's law relates voltage V, current I, and resistance R as:",
+        "choices": [
+          "V = IR",
+          "I = VR",
+          "R = VI",
+          "V = I/R"
+        ],
+        "answer": 0,
+        "explanation": "Ohm's law is V = IR for an ohmic conductor under fixed conditions."
+      },
+      {
+        "prompt": "Which loop checks its condition before the first iteration in C?",
+        "choices": [
+          "do-while",
+          "while",
+          "Both always execute once",
+          "Neither"
+        ],
+        "answer": 1,
+        "explanation": "A while loop checks its condition before executing the body."
+      },
+      {
+        "prompt": "The area under a velocity-time graph represents:",
+        "choices": [
+          "Acceleration",
+          "Distance or displacement",
+          "Jerk",
+          "Momentum"
+        ],
+        "answer": 1,
+        "explanation": "Integrating velocity over time gives displacement; the signed area is displacement."
+      },
+      {
+        "prompt": "A covalent bond is formed primarily by:",
+        "choices": [
+          "Sharing electrons",
+          "Transferring protons",
+          "Sharing neutrons",
+          "Transferring nuclei"
+        ],
+        "answer": 0,
+        "explanation": "Covalent bonds involve shared pairs of electrons."
+      },
+      {
+        "prompt": "A technical drawing is mainly used to:",
+        "choices": [
+          "Replace all calculations",
+          "Communicate component geometry",
+          "Measure temperature",
+          "Store source code"
+        ],
+        "answer": 1,
+        "explanation": "Engineering drawings communicate shape, dimensions, and manufacturing intent."
+      },
+      {
+        "prompt": "Which statement about a C function is correct?",
+        "choices": [
+          "It can group reusable instructions",
+          "It must always return a float",
+          "It cannot accept input",
+          "It is only used for loops"
+        ],
+        "answer": 0,
+        "explanation": "Functions group reusable logic and may accept parameters or return a value."
+      }
+    ]
+  },
+  {
+    "id": "mid-ii",
+    "title": "First-year Mid-II",
+    "coverage": "Units 3-5",
+    "examType": "midterm",
+    "questions": [
+      {
+        "prompt": "The integral of 2x with respect to x is:",
+        "choices": [
+          "2x² + C",
+          "x² + C",
+          "x + C",
+          "2 + C"
+        ],
+        "answer": 1,
+        "explanation": "The antiderivative of 2x is x² + C."
+      },
+      {
+        "prompt": "Which structure follows last-in, first-out order?",
+        "choices": [
+          "Queue",
+          "Stack",
+          "Tree",
+          "Graph"
+        ],
+        "answer": 1,
+        "explanation": "A stack removes the most recently added item first."
+      },
+      {
+        "prompt": "In a Python list, the first element is at index:",
+        "choices": [
+          "-1",
+          "0",
+          "1",
+          "Depends on list length"
+        ],
+        "answer": 1,
+        "explanation": "Python uses zero-based indexing."
+      },
+      {
+        "prompt": "The SI unit of electrical resistance is:",
+        "choices": [
+          "Volt",
+          "Ampere",
+          "Ohm",
+          "Coulomb"
+        ],
+        "answer": 2,
+        "explanation": "Resistance is measured in ohms (Ω)."
+      },
+      {
+        "prompt": "A vector field's divergence is a measure of:",
+        "choices": [
+          "Local source or sink strength",
+          "Path length",
+          "Rotation only",
+          "Scalar product"
+        ],
+        "answer": 0,
+        "explanation": "Divergence measures net outward flux density at a point."
+      },
+      {
+        "prompt": "Which search method requires sorted data for its usual efficient form?",
+        "choices": [
+          "Linear search",
+          "Binary search",
+          "Depth-first search",
+          "Hash lookup"
+        ],
+        "answer": 1,
+        "explanation": "Binary search repeatedly halves a sorted search interval."
+      },
+      {
+        "prompt": "In a series circuit, the current through ideal components is:",
+        "choices": [
+          "Different at each component",
+          "The same",
+          "Always zero",
+          "Equal to voltage"
+        ],
+        "answer": 1,
+        "explanation": "The same current flows through each element in a series path."
+      },
+      {
+        "prompt": "A Python function is declared using the keyword:",
+        "choices": [
+          "function",
+          "def",
+          "make",
+          "fn"
+        ],
+        "answer": 1,
+        "explanation": "Python uses def to define a function."
+      },
+      {
+        "prompt": "The first law of thermodynamics is a statement of conservation of:",
+        "choices": [
+          "Charge",
+          "Mass only",
+          "Energy",
+          "Angular momentum only"
+        ],
+        "answer": 2,
+        "explanation": "The first law expresses conservation of energy for a thermodynamic system."
+      },
+      {
+        "prompt": "In an engineering lab report, a conclusion should:",
+        "choices": [
+          "Repeat the title only",
+          "Relate findings to the objective",
+          "Omit measured results",
+          "Replace the method"
+        ],
+        "answer": 1,
+        "explanation": "A conclusion interprets the results in relation to the experiment's objective."
+      }
+    ]
+  },
+  {
+    "id": "see",
+    "title": "First-year semester-end",
+    "coverage": "Units 1-5",
+    "examType": "semester-end",
+    "questions": [
+      {
+        "prompt": "Which operation is used to find the determinant of a square matrix?",
+        "choices": [
+          "Matrix addition only",
+          "A determinant expansion or row reduction",
+          "Vector cross product",
+          "Scalar integration"
+        ],
+        "answer": 1,
+        "explanation": "Determinants can be computed through expansion or suitable row operations."
+      },
+      {
+        "prompt": "Which C keyword exits the current loop immediately?",
+        "choices": [
+          "stop",
+          "break",
+          "returnall",
+          "exitloop"
+        ],
+        "answer": 1,
+        "explanation": "break terminates the nearest enclosing loop or switch."
+      },
+      {
+        "prompt": "The SI unit of power is:",
+        "choices": [
+          "Joule",
+          "Watt",
+          "Newton",
+          "Ampere"
+        ],
+        "answer": 1,
+        "explanation": "Power is measured in watts (W), equivalent to joules per second."
+      },
+      {
+        "prompt": "A queue typically follows:",
+        "choices": [
+          "Last-in, first-out",
+          "First-in, first-out",
+          "Random order",
+          "Sorted order"
+        ],
+        "answer": 1,
+        "explanation": "A queue processes items in first-in, first-out order."
+      },
+      {
+        "prompt": "For independent events A and B, P(A and B) equals:",
+        "choices": [
+          "P(A) + P(B)",
+          "P(A)P(B)",
+          "P(A) - P(B)",
+          "P(A)/P(B)"
+        ],
+        "answer": 1,
+        "explanation": "For independent events, the probability of both is the product of their probabilities."
+      },
+      {
+        "prompt": "In a balanced three-phase system, phase quantities are separated by:",
+        "choices": [
+          "60°",
+          "90°",
+          "120°",
+          "180°"
+        ],
+        "answer": 2,
+        "explanation": "The phase angles of a balanced three-phase system are 120 degrees apart."
+      },
+      {
+        "prompt": "The purpose of a free-body diagram is to show:",
+        "choices": [
+          "All external forces on a body",
+          "Only internal stress",
+          "A component's color",
+          "A circuit's voltage only"
+        ],
+        "answer": 0,
+        "explanation": "A free-body diagram isolates a body and represents the external forces and moments acting on it."
+      },
+      {
+        "prompt": "Which Python type is immutable?",
+        "choices": [
+          "list",
+          "dict",
+          "tuple",
+          "set"
+        ],
+        "answer": 2,
+        "explanation": "Tuples cannot be modified after creation."
+      },
+      {
+        "prompt": "In a lab, a repeated measurement is useful for estimating:",
+        "choices": [
+          "Random variation",
+          "Theoretical units",
+          "A component's color",
+          "The exam duration"
+        ],
+        "answer": 0,
+        "explanation": "Repeated measurements help identify variation and improve an estimate."
+      },
+      {
+        "prompt": "A good engineering design should account for:",
+        "choices": [
+          "Only appearance",
+          "Constraints, safety, and intended use",
+          "Only the first idea",
+          "No testing"
+        ],
+        "answer": 1,
+        "explanation": "Engineering design balances requirements, constraints, safety, and validation."
+      }
+    ]
+  }
+]

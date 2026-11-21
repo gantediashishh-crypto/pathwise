@@ -1,0 +1,950 @@
+{
+  "branches": [
+    "Computer Science",
+    "Electronics",
+    "Mechanical",
+    "Electrical",
+    "Civil"
+  ],
+  "careers": [
+    "Full-Stack Web Developer",
+    "Data Scientist",
+    "Embedded Systems Engineer",
+    "AI/ML Engineer",
+    "Cybersecurity Engineer",
+    "Mechanical Design Engineer",
+    "Power Systems Engineer",
+    "Structural Engineer"
+  ],
+  "courses": [
+    {
+      "code": "ENGR101",
+      "name": "Engineering Design",
+      "semester": 1,
+      "credits": 3,
+      "difficulty": "Introductory",
+      "branches": [
+        "all"
+      ],
+      "prerequisites": [],
+      "keywords": [
+        "design",
+        "foundations"
+      ],
+      "description": "An introduction to structured problem solving, design constraints, and technical communication."
+    },
+    {
+      "code": "MATH101",
+      "name": "Calculus I",
+      "semester": 1,
+      "credits": 4,
+      "difficulty": "Introductory",
+      "branches": [
+        "all"
+      ],
+      "prerequisites": [],
+      "keywords": [
+        "math",
+        "calculus"
+      ],
+      "description": "Limits, derivatives, and their applications in engineering."
+    },
+    {
+      "code": "PHYS101",
+      "name": "Physics: Mechanics",
+      "semester": 1,
+      "credits": 4,
+      "difficulty": "Introductory",
+      "branches": [
+        "all"
+      ],
+      "prerequisites": [],
+      "keywords": [
+        "physics",
+        "mechanics"
+      ],
+      "description": "Motion, forces, energy, and momentum with engineering applications."
+    },
+    {
+      "code": "CS101",
+      "name": "Programming Fundamentals",
+      "semester": 1,
+      "credits": 3,
+      "difficulty": "Introductory",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical",
+        "Mechanical",
+        "Civil"
+      ],
+      "prerequisites": [],
+      "keywords": [
+        "coding",
+        "python",
+        "programming"
+      ],
+      "description": "Build core programming skills with variables, control flow, functions, and debugging."
+    },
+    {
+      "code": "ECE101",
+      "name": "Circuit Analysis",
+      "semester": 1,
+      "credits": 4,
+      "difficulty": "Introductory",
+      "branches": [
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [],
+      "keywords": [
+        "circuits",
+        "electronics"
+      ],
+      "description": "Analyze DC circuits, components, and basic measurement techniques."
+    },
+    {
+      "code": "ME101",
+      "name": "Engineering Graphics",
+      "semester": 1,
+      "credits": 3,
+      "difficulty": "Introductory",
+      "branches": [
+        "Mechanical",
+        "Civil"
+      ],
+      "prerequisites": [],
+      "keywords": [
+        "design",
+        "cad",
+        "drawing"
+      ],
+      "description": "Represent engineering components and systems using technical drawings."
+    },
+    {
+      "code": "MATH102",
+      "name": "Calculus II",
+      "semester": 2,
+      "credits": 4,
+      "difficulty": "Intermediate",
+      "branches": [
+        "all"
+      ],
+      "prerequisites": [
+        "MATH101"
+      ],
+      "keywords": [
+        "math",
+        "calculus",
+        "integrals"
+      ],
+      "description": "Integration, sequences, and series for engineering analysis."
+    },
+    {
+      "code": "CS102",
+      "name": "Data Structures",
+      "semester": 2,
+      "credits": 4,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical",
+        "Mechanical",
+        "Civil"
+      ],
+      "prerequisites": [
+        "CS101"
+      ],
+      "keywords": [
+        "coding",
+        "algorithms",
+        "programming"
+      ],
+      "description": "Organize and work with data using lists, trees, hash tables, and graphs."
+    },
+    {
+      "code": "CHEM101",
+      "name": "Materials and Chemistry",
+      "semester": 2,
+      "credits": 3,
+      "difficulty": "Introductory",
+      "branches": [
+        "all"
+      ],
+      "prerequisites": [],
+      "keywords": [
+        "materials",
+        "chemistry"
+      ],
+      "description": "Explore material properties, chemical principles, and selection in engineering."
+    },
+    {
+      "code": "ECE102",
+      "name": "Digital Logic",
+      "semester": 2,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "ECE101"
+      ],
+      "keywords": [
+        "circuits",
+        "logic",
+        "electronics"
+      ],
+      "description": "Design combinational and sequential circuits using Boolean logic."
+    },
+    {
+      "code": "ME102",
+      "name": "Statics and Materials",
+      "semester": 2,
+      "credits": 4,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Mechanical",
+        "Civil"
+      ],
+      "prerequisites": [
+        "PHYS101"
+      ],
+      "keywords": [
+        "mechanics",
+        "materials"
+      ],
+      "description": "Study force equilibrium, stress, strain, and basic material behavior."
+    },
+    {
+      "code": "CS103",
+      "name": "Discrete Mathematics",
+      "semester": 3,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "MATH101"
+      ],
+      "keywords": [
+        "math",
+        "logic",
+        "proofs"
+      ],
+      "description": "Use logic, sets, combinatorics, and graph theory to reason about computing."
+    },
+    {
+      "code": "CS201",
+      "name": "Algorithms",
+      "semester": 3,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "CS102",
+        "CS103"
+      ],
+      "keywords": [
+        "coding",
+        "algorithms",
+        "complexity"
+      ],
+      "description": "Analyze algorithm correctness and efficiency; apply core design techniques."
+    },
+    {
+      "code": "MATH201",
+      "name": "Linear Algebra",
+      "semester": 3,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "all"
+      ],
+      "prerequisites": [
+        "MATH101"
+      ],
+      "keywords": [
+        "math",
+        "matrices",
+        "data"
+      ],
+      "description": "Vectors, matrices, and linear systems used throughout engineering."
+    },
+    {
+      "code": "ECE201",
+      "name": "Signals and Systems",
+      "semester": 3,
+      "credits": 4,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "ECE102",
+        "MATH102"
+      ],
+      "keywords": [
+        "signals",
+        "circuits"
+      ],
+      "description": "Model continuous and discrete signals and analyze linear systems."
+    },
+    {
+      "code": "ME201",
+      "name": "Thermodynamics",
+      "semester": 3,
+      "credits": 4,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Mechanical"
+      ],
+      "prerequisites": [
+        "PHYS101",
+        "MATH102"
+      ],
+      "keywords": [
+        "energy",
+        "mechanics"
+      ],
+      "description": "Apply energy balances and thermodynamic laws to engineering systems."
+    },
+    {
+      "code": "CIV201",
+      "name": "Structural Mechanics",
+      "semester": 3,
+      "credits": 4,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Civil"
+      ],
+      "prerequisites": [
+        "ME102",
+        "MATH102"
+      ],
+      "keywords": [
+        "structures",
+        "mechanics"
+      ],
+      "description": "Analyze internal forces and deformation in basic structural elements."
+    },
+    {
+      "code": "CS202",
+      "name": "Database Systems",
+      "semester": 4,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "CS102"
+      ],
+      "keywords": [
+        "data",
+        "sql",
+        "backend"
+      ],
+      "description": "Design relational data models and write queries for transactional systems."
+    },
+    {
+      "code": "CS203",
+      "name": "Computer Systems",
+      "semester": 4,
+      "credits": 4,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "CS101"
+      ],
+      "keywords": [
+        "hardware",
+        "systems",
+        "embedded"
+      ],
+      "description": "Understand how processors, memory, and operating systems execute programs."
+    },
+    {
+      "code": "MATH202",
+      "name": "Probability and Statistics",
+      "semester": 4,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "all"
+      ],
+      "prerequisites": [
+        "MATH102"
+      ],
+      "keywords": [
+        "math",
+        "statistics",
+        "data"
+      ],
+      "description": "Use probability models and statistical methods to reason from data."
+    },
+    {
+      "code": "ECE202",
+      "name": "Microcontrollers",
+      "semester": 4,
+      "credits": 4,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "ECE102",
+        "CS101"
+      ],
+      "keywords": [
+        "embedded",
+        "hardware",
+        "coding"
+      ],
+      "description": "Program microcontrollers and connect firmware to sensors and actuators."
+    },
+    {
+      "code": "ME202",
+      "name": "Machine Design",
+      "semester": 4,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "Mechanical"
+      ],
+      "prerequisites": [
+        "ME102"
+      ],
+      "keywords": [
+        "design",
+        "mechanics",
+        "cad"
+      ],
+      "description": "Select and size mechanical components using engineering design principles."
+    },
+    {
+      "code": "CIV202",
+      "name": "Surveying and Geomatics",
+      "semester": 4,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Civil"
+      ],
+      "prerequisites": [
+        "MATH101"
+      ],
+      "keywords": [
+        "surveying",
+        "structures"
+      ],
+      "description": "Measure, map, and interpret spatial information for civil projects."
+    },
+    {
+      "code": "CS204",
+      "name": "Computer Networks",
+      "semester": 5,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "CS203"
+      ],
+      "keywords": [
+        "networks",
+        "systems",
+        "security"
+      ],
+      "description": "Explore network protocols, routing, and the layered internet architecture."
+    },
+    {
+      "code": "CS205",
+      "name": "Software Engineering",
+      "semester": 5,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "CS201"
+      ],
+      "keywords": [
+        "software",
+        "teamwork",
+        "design"
+      ],
+      "description": "Plan, build, test, and maintain software with reliable team practices."
+    },
+    {
+      "code": "CS301",
+      "name": "Web Application Engineering",
+      "semester": 5,
+      "credits": 4,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "CS202",
+        "CS205"
+      ],
+      "keywords": [
+        "web",
+        "frontend",
+        "backend",
+        "full stack"
+      ],
+      "description": "Build accessible web applications with client, server, and data layers."
+    },
+    {
+      "code": "ECE301",
+      "name": "Embedded Systems",
+      "semester": 5,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "ECE202",
+        "CS203"
+      ],
+      "keywords": [
+        "embedded",
+        "firmware",
+        "hardware"
+      ],
+      "description": "Design resource-aware embedded applications that integrate hardware and software."
+    },
+    {
+      "code": "ME301",
+      "name": "Manufacturing Processes",
+      "semester": 5,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Mechanical"
+      ],
+      "prerequisites": [
+        "ME202"
+      ],
+      "keywords": [
+        "manufacturing",
+        "design"
+      ],
+      "description": "Compare manufacturing methods and their impact on product design."
+    },
+    {
+      "code": "CIV301",
+      "name": "Geotechnical Engineering",
+      "semester": 5,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Civil"
+      ],
+      "prerequisites": [
+        "CIV201",
+        "CHEM101"
+      ],
+      "keywords": [
+        "soil",
+        "structures"
+      ],
+      "description": "Evaluate soil properties and their role in foundation engineering."
+    },
+    {
+      "code": "CS302",
+      "name": "Machine Learning",
+      "semester": 6,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "CS201",
+        "MATH201",
+        "MATH202"
+      ],
+      "keywords": [
+        "ai",
+        "ml",
+        "data",
+        "python"
+      ],
+      "description": "Train and evaluate predictive models using statistical and computational methods."
+    },
+    {
+      "code": "CS303",
+      "name": "Cybersecurity Foundations",
+      "semester": 6,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "CS203",
+        "CS204"
+      ],
+      "keywords": [
+        "security",
+        "networks",
+        "systems"
+      ],
+      "description": "Apply security principles to systems, networks, identity, and data."
+    },
+    {
+      "code": "ECE302",
+      "name": "Digital Signal Processing",
+      "semester": 6,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "ECE201"
+      ],
+      "keywords": [
+        "signals",
+        "dsp",
+        "electronics"
+      ],
+      "description": "Analyze and process sampled signals using practical digital techniques."
+    },
+    {
+      "code": "EE301",
+      "name": "Power Systems",
+      "semester": 6,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "Electrical"
+      ],
+      "prerequisites": [
+        "ECE201"
+      ],
+      "keywords": [
+        "power",
+        "energy",
+        "circuits"
+      ],
+      "description": "Model electrical power generation, transmission, and distribution systems."
+    },
+    {
+      "code": "ME302",
+      "name": "Control Systems",
+      "semester": 6,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "Mechanical"
+      ],
+      "prerequisites": [
+        "ME201",
+        "MATH201"
+      ],
+      "keywords": [
+        "control",
+        "automation",
+        "systems"
+      ],
+      "description": "Model dynamic systems and design feedback controllers."
+    },
+    {
+      "code": "CIV302",
+      "name": "Transportation Engineering",
+      "semester": 6,
+      "credits": 3,
+      "difficulty": "Intermediate",
+      "branches": [
+        "Civil"
+      ],
+      "prerequisites": [
+        "CIV202",
+        "MATH202"
+      ],
+      "keywords": [
+        "transport",
+        "infrastructure"
+      ],
+      "description": "Plan and evaluate safe, efficient transportation infrastructure."
+    },
+    {
+      "code": "CS304",
+      "name": "Cloud and Distributed Systems",
+      "semester": 7,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "CS204",
+        "CS301"
+      ],
+      "keywords": [
+        "cloud",
+        "distributed",
+        "web"
+      ],
+      "description": "Design scalable services and reason about distributed data and failure."
+    },
+    {
+      "code": "CS305",
+      "name": "Data Science Practice",
+      "semester": 7,
+      "credits": 3,
+      "difficulty": "Advanced",
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "CS302",
+        "CS202"
+      ],
+      "keywords": [
+        "data",
+        "science",
+        "analytics"
+      ],
+      "description": "Develop reproducible data workflows from data preparation through communication."
+    },
+    {
+      "code": "ECE401",
+      "name": "IoT Systems Studio",
+      "semester": 7,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "Electronics",
+        "Electrical"
+      ],
+      "prerequisites": [
+        "ECE301",
+        "CS204"
+      ],
+      "keywords": [
+        "iot",
+        "embedded",
+        "networks"
+      ],
+      "description": "Integrate connected devices, embedded software, and networked services."
+    },
+    {
+      "code": "ME401",
+      "name": "Robotics and Automation",
+      "semester": 7,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "Mechanical"
+      ],
+      "prerequisites": [
+        "ME302",
+        "CS102"
+      ],
+      "keywords": [
+        "robotics",
+        "automation",
+        "embedded"
+      ],
+      "description": "Combine mechanisms, sensing, and control to automate physical tasks."
+    },
+    {
+      "code": "CIV401",
+      "name": "Sustainable Infrastructure",
+      "semester": 7,
+      "credits": 3,
+      "difficulty": "Advanced",
+      "branches": [
+        "Civil"
+      ],
+      "prerequisites": [
+        "CIV301",
+        "CIV302"
+      ],
+      "keywords": [
+        "sustainability",
+        "infrastructure"
+      ],
+      "description": "Assess infrastructure systems using environmental and lifecycle considerations."
+    },
+    {
+      "code": "CS401",
+      "name": "Engineering Capstone",
+      "semester": 8,
+      "credits": 4,
+      "difficulty": "Advanced",
+      "branches": [
+        "all"
+      ],
+      "prerequisites": [
+        "ENGR101",
+        "MATH102"
+      ],
+      "keywords": [
+        "project",
+        "design",
+        "capstone"
+      ],
+      "description": "Deliver a scoped engineering project and document its design and evaluation."
+    }
+  ],
+  "careerCodes": {
+    "Full-Stack Web Developer": [
+      "CS202",
+      "CS204",
+      "CS205",
+      "CS301",
+      "CS304"
+    ],
+    "Data Scientist": [
+      "CS201",
+      "MATH201",
+      "MATH202",
+      "CS302",
+      "CS305"
+    ],
+    "Embedded Systems Engineer": [
+      "CS203",
+      "ECE202",
+      "ECE301",
+      "ECE401"
+    ],
+    "AI/ML Engineer": [
+      "CS201",
+      "MATH201",
+      "MATH202",
+      "CS302"
+    ],
+    "Cybersecurity Engineer": [
+      "CS203",
+      "CS204",
+      "CS303"
+    ],
+    "Mechanical Design Engineer": [
+      "ME102",
+      "ME202",
+      "ME301",
+      "ME401"
+    ],
+    "Power Systems Engineer": [
+      "ECE201",
+      "EE301",
+      "ECE302"
+    ],
+    "Structural Engineer": [
+      "ME102",
+      "CIV201",
+      "CIV301",
+      "CIV401"
+    ]
+  },
+  "branchCodes": {
+    "Computer Science": [
+      "CS103",
+      "CS201",
+      "CS202",
+      "CS203",
+      "CS204",
+      "CS205",
+      "CS301",
+      "CS302",
+      "CS303",
+      "CS304",
+      "CS305"
+    ],
+    "Electronics": [
+      "ECE101",
+      "ECE102",
+      "ECE201",
+      "ECE202",
+      "ECE301",
+      "ECE302",
+      "ECE401",
+      "CS102",
+      "CS203",
+      "CS204"
+    ],
+    "Mechanical": [
+      "ME101",
+      "ME102",
+      "ME201",
+      "ME202",
+      "ME301",
+      "ME302",
+      "ME401"
+    ],
+    "Electrical": [
+      "ECE101",
+      "ECE102",
+      "ECE201",
+      "ECE202",
+      "ECE301",
+      "ECE302",
+      "EE301",
+      "CS102",
+      "CS203",
+      "CS204"
+    ],
+    "Civil": [
+      "ME101",
+      "ME102",
+      "CIV201",
+      "CIV202",
+      "CIV301",
+      "CIV302",
+      "CIV401"
+    ]
+  },
+  "sharedCodes": [
+    "ENGR101",
+    "MATH101",
+    "PHYS101",
+    "CS101",
+    "MATH102",
+    "CHEM101",
+    "MATH201",
+    "MATH202",
+    "CS401"
+  ]
+}
